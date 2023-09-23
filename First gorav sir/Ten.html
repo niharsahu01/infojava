@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ten</title>
+</head>
+<body>
+    <form>
+        <table>
+            <caption>Infobean</caption>
+            <tr>
+                <td>
+                    <label for="Pname">Product name:</label>    
+                </td>
+                <td>
+                    <input placeholder="Product name" type="Text" name="" id="Pname">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="Pqua">Product Quality:</label>    
+                </td>
+                <td>
+                    <input type="number" name="" min="0" id="Pqua" placeholder="Product Quality">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ProPri">Product Price:</label>    
+                </td>
+                <td>
+                    <input type="number" min="0" name="" id="ProPri" placeholder="Price">
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <label for="Pay">Payment Mode</label>    
+                </td>
+                <td>
+                    <select id="Pay" name="Pay">
+                        <option value="upi">UPI</option>
+                        <option value="net banking">NET BANKING</option>
+                        <option value="COD">COD</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Type
+                </td>
+                <td>
+                    <input type="radio" id="Import" name="Type" value="Import">
+                    <label for="">Import</label>
+                    <input type="radio" id="Export" name="Type" value="Export">
+                    <label for="">Export</label>
+    
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2">
+                    weight
+                </td>
+                <td>
+                    <input type="checkbox" name="weight" id="50kgDOWN">
+                    <label for="50kgUP"><=50kg</label>
+                    <input type="checkbox" name="weight" id="50kgUP">
+                    <label for="50kgUP">>50kg</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Add Product</button>
+                    <button type="reset">Clear</button>
+                    </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
